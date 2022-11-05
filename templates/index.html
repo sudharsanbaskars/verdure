@@ -1,0 +1,292 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<!-- Start Slider -->
+<div id="slides-shop" class="cover-slides" xmlns="http://www.w3.org/1999/html">
+    <ul class="slides-container">
+        <li class="text-center">
+            <img src="{{ url_for('static', filename = 'images/banner-02.jpg') }}" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="m-b-20"><strong>Welcome To <br> Verdcure!!</strong></h1>
+                        <p class="m-b-30">We diagnose your plants' disease and provide simple curative measures to make your farming journey smooth and fruitful<br>
+                         Here are some questions we'll answer
+                            <p class="text-li mx-auto mt-2">
+                                1. What disease has your plant been infected by? <br>
+                                2. What are the curative measures? <br></p>
+                        <p><a class="btn hvr-hover" title="Top to back" href="{{ url_for('about') }}">Explore Now</a></p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="text-center">
+            <img src="{{ url_for('static', filename = 'images/crop-img.jpg') }}" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="m-b-20"><strong>Welcome To <br> Verdcure!!</strong></h1>
+                        <p class="m-b-30">We diagnose your plants' disease and provide simple curative measures to make your farming journey smooth and fruitful<br>
+                         Here are some questions we'll answer
+                            <p class="text-li mx-auto mt-2">
+                                1. What disease has your plant been infected by?  <br>
+                                2. What are the curative measures? <br></p>
+                        <p><a class="btn hvr-hover" href="{{ url_for('about') }}">Explore Now</a></p>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="text-center">
+            <img src="{{url_for('static', filename = 'images/crop4-img.jpg') }}" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="m-b-20"><strong>Welcome To <br> Verdcure!!</strong></h1>
+                        <p class="m-b-30">We diagnose your plants' disease and provide simple curative measures to make your farming journey smooth and fruitful<br>
+                         Here are some questions we'll answer
+                            <p class="text-li mx-auto mt-2">
+                                1. What disease has your plant been infected by? <br>
+                                2. What are the curative measures? <br></p>
+                        <p><a class="btn hvr-hover" href="{{ url_for('about') }}">Explore Now</a></p>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <div class="slides-navigation">
+        <a href="#" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+        <a href="#" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+    </div>
+</div>
+<!-- End Slider -->
+
+<!-- Start Categories  -->
+<!--<div class="categories-shop">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-lg-3 col-md-3 col-sm-11 col-xs-11">-->
+<!--                <div class="shop-cat-box">-->
+<!--                    <img class="img-fluid" src="{{ url_for('static', filename='images/categories_img_01.jpg') }}" alt="" />-->
+<!--                    <p>ewtmout ouwet</p>-->
+<!--                    <a class="btn hvr-hover" href="#">Recommend Crop</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-lg-3 col-md-3 col-sm-11 col-xs-11">-->
+<!--                <div class="shop-cat-box">-->
+<!--                    <img class="img-fluid" src="{{ url_for('static', filename = 'images/categories_img_02.jpg') }}" alt="" />-->
+<!--                    <a class="btn hvr-hover" href="#">Recommend Fertilizer</a>-->
+<!--                    <p>hlleo ewirqh q </p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-lg-3 col-md-3 col-sm-11 col-xs-11">-->
+<!--                <div class="shop-cat-box">-->
+<!--                    <img class="img-fluid" src="{{ url_for('static', filename = 'images/categories_img_03.jpg') }}" alt="" />-->
+<!--                    <p>ewtmout ouwet</p>-->
+<!--                    <a class="btn hvr-hover" href="#">Find Disease</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-lg-3 col-md-3 col-sm-11 col-xs-11">-->
+<!--                <div class="shop-cat-box">-->
+<!--                    <img class="img-fluid" src="{{ url_for('static', filename='images/categories_img_01.jpg') }}" alt="" />-->
+<!--                    <p>ewtmout ouwet</p>-->
+<!--                    <a class="btn hvr-hover" href="#">Predict the Production</a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+    <!-- End Categories -->
+<!-- About us side -->
+<!--<section class="core-value py-6">-->
+<!--	<div class="container py-md-4">-->
+<!--		<h1 class="heading mb-sm-4 mb-4 text-center"><b>About Us</b></h1>-->
+<!--		<div class="row core-grids">-->
+<!--			<div class="col-lg-6 core-left">-->
+<!--				<img src="{{ url_for('static', filename='images/crop2-img.jpg') }}" class="img-fluid" alt="" />-->
+<!--			</div>-->
+<!--			<div class="col-lg-6 core-right">-->
+<!--				<h3 class="mt-4"><strong>Improving Agriculture, Improving Lives, Cultivating Crops To Make Farmers Increase-->
+<!--                    Profit.</strong></h3>-->
+<!--				<p class="mt-3">We use state-of-the-art machine learning and deep learning technologies to help you-->
+<!--					guide through-->
+<!--					the entire farming process. Make informed decisions to understand the demographics of your area,-->
+<!--					understand the-->
+<!--					factors that affect your crop and keep them healthy for a super awesome successful yield.</p>-->
+<!--			</div>-->
+<!--		</div>-->
+<!--	</div>-->
+<!--</section>-->
+
+<!-- End About us -->
+<!--	<div class="box-add-products">-->
+<!--		<div class="container">-->
+<!--			<div class="row">-->
+<!--				<div class="col-lg-6 col-md-6 col-sm-12">-->
+<!--					<div class="offer-box-products">-->
+<!--						<img class="img-fluid" src="{{ url_for('static', filename = 'images/add-img-01.jpg') }}" alt="" />-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				<div class="col-lg-6 col-md-6 col-sm-12">-->
+<!--					<div class="offer-box-products">-->
+<!--						<img class="img-fluid" src="{{ url_for('static', filename = 'images/add-img-02.jpg') }}" alt="" />-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</div>-->
+<!--	</div>-->
+
+    <!-- Start Products  -->
+<!--<div class="products-box">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-lg-12">-->
+<!--                <div class="title-all text-center">-->
+<!--                    <h1>Our Services</h1>-->
+<!--                    <p></p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--&lt;!&ndash;            <div class="row">&ndash;&gt;-->
+<!--&lt;!&ndash;                <div class="col-lg-12">&ndash;&gt;-->
+<!--&lt;!&ndash;                    <div class="special-menu text-center">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="button-group filter-button-group">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <button class="active" data-filter="*">All</button>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <button data-filter=".top-featured">Top featured</button>&ndash;&gt;-->
+<!--&lt;!&ndash;                            <button data-filter=".best-seller">Best seller</button>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;                </div>&ndash;&gt;-->
+<!--&lt;!&ndash;            </div>&ndash;&gt;-->
+
+<!--        <div class="row special-list">-->
+<!--            <div class="col-lg-3 col-md-6 special-grid best-seller">-->
+<!--                <div class="products-single fix">-->
+<!--                    <div class="box-img-hover">-->
+<!--                        <img src="{{url_for('static', filename='images/img-pro-01.jpg') }}" class="img-fluid" alt="Image">-->
+<!--                    </div>-->
+<!--                    <div class="why-text">-->
+<!--                        <h5><a href="">Recommend Crop</a></h5>-->
+<!--                        <p><strong>Recommendation about the type of crops to be cultivated which is best suited-->
+<!--                            for the some respective conditions</strong></p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+
+<!--            <div class="col-lg-3 col-md-6 special-grid top-featured">-->
+<!--                <div class="products-single fix">-->
+<!--                    <div class="box-img-hover">-->
+<!--                        <img src="{{url_for('static', filename = 'images/img-pro-02.jpg') }}" class="img-fluid" alt="Image">-->
+
+<!--                    </div>-->
+<!--                    <div class="why-text">-->
+<!--                        <h5><a href="">Recommend Fertilizer</a></h5>-->
+<!--                        <p><strong>Recommendation about the type of fertilizer best suited for the particular soil-->
+<!--                        and for recommended crop</strong></p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+
+<!--            <div class="col-lg-3 col-md-6 special-grid top-featured">-->
+<!--                <div class="products-single fix">-->
+<!--                    <div class="box-img-hover">-->
+<!--                        <img src="{{url_for('static', filename = 'images/img-pro-03.jpg') }}" class="img-fluid" alt="Image">-->
+
+<!--                    </div>-->
+<!--                    <div class="why-text">-->
+<!--                        <h5><a href="{{ url_for('apple_disease_prediction') }}">Find Disease</a></h5>-->
+<!--                        <p><strong>Predicting the name and causes of crop disease and some suggestions to cure it</strong></p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+
+<!--            <div class="col-lg-3 col-md-6 special-grid best-seller">-->
+<!--                <div class="products-single fix">-->
+<!--                    <div class="box-img-hover">-->
+<!--                        <img src="{{ url_for('static', filename = 'images/img-pro-04.jpg') }}" class="img-fluid" alt="Image">-->
+
+<!--                    </div>-->
+<!--                    <div class="why-text">-->
+<!--                        <h5><a href="">Production Estimation</a></h5>-->
+<!--                        <p><strong>Predict the Production for your cultivation per year approximately for your field</strong></p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+    <!-- End Products  -->
+
+    <!-- Start Blog  -->
+<!--    <div class="latest-blog">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-lg-12">-->
+<!--                    <div class="title-all text-center">-->
+<!--                        <h1>latest blog</h1>-->
+<!--                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet lacus enim.</p>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="row">-->
+<!--                <div class="col-md-6 col-lg-4 col-xl-4">-->
+<!--                    <div class="blog-box">-->
+<!--                        <div class="blog-img">-->
+<!--                            <img class="img-fluid" src="{{ url_for('static',filename='images/blog-img.jpg') }}" />-->
+<!--                        </div>-->
+<!--                        <div class="blog-content">-->
+<!--                            <div class="title-blog">-->
+<!--                                <h3>Crop Recommendation</h3>-->
+<!--                                <p>Recommendation about the type of crops to be cultivated which is best suited-->
+<!--							    for the respective conditions</p>-->
+<!--                            </div>-->
+<!--                            <ul class="option-blog">-->
+<!--                                <li><a href="#"><i class="far fa-heart"></i></a></li>-->
+<!--                                <li><a href="#"><i class="fas fa-eye"></i></a></li>-->
+<!--                                <li><a href="#"><i class="far fa-comments"></i></a></li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-md-6 col-lg-4 col-xl-4">-->
+<!--                    <div class="blog-box">-->
+<!--                        <div class="blog-img">-->
+<!--                            <img class="img-fluid" src="{{url_for('static', filename='images/blog-img-01.jpg')}}" />-->
+<!--                        </div>-->
+<!--                        <div class="blog-content">-->
+<!--                            <div class="title-blog">-->
+<!--                                <h3>Fusce in augue non nisi fringilla</h3>-->
+<!--                                <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>-->
+<!--                            </div>-->
+<!--                            <ul class="option-blog">-->
+<!--                                <li><a href="#"><i class="far fa-heart"></i></a></li>-->
+<!--                                <li><a href="#"><i class="fas fa-eye"></i></a></li>-->
+<!--                                <li><a href="#"><i class="far fa-comments"></i></a></li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-md-6 col-lg-4 col-xl-4">-->
+<!--                    <div class="blog-box">-->
+<!--                        <div class="blog-img">-->
+<!--                            <img class="img-fluid" src="{{url_for('static', filename='images/blog-img-02.jpg') }}"  />-->
+<!--                        </div>-->
+<!--                        <div class="blog-content">-->
+<!--                            <div class="title-blog">-->
+<!--                                <h3>Fusce in augue non nisi fringilla</h3>-->
+<!--                                <p>Nulla ut urna egestas, porta libero id, suscipit orci. Quisque in lectus sit amet urna dignissim feugiat. Mauris molestie egestas pharetra. Ut finibus cursus nunc sed mollis. Praesent laoreet lacinia elit id lobortis.</p>-->
+<!--                            </div>-->
+<!--                            <ul class="option-blog">-->
+<!--                                <li><a href="#"><i class="far fa-heart"></i></a></li>-->
+<!--                                <li><a href="#"><i class="fas fa-eye"></i></a></li>-->
+<!--                                <li><a href="#"><i class="far fa-comments"></i></a></li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+    <!-- End Blog  -->
+
+{% endblock %}
